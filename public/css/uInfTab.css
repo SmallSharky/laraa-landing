@@ -1,0 +1,11 @@
+.uInfTab{
+    display: table;
+} 
+.uInfTabCell{
+    display: table-cell;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.uInfTabStr{
+    display: table-row;
+}
