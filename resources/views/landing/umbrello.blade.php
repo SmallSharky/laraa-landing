@@ -10,11 +10,30 @@
 
 @section('styles')
     <style>
+        .text15 {
+            font-size: 15pt;
+        }
+
+        .text12 {
+            font-size: 12pt;
+        }
+
+        .centered-text {
+            text-align: center;
+        }
+
+        .card-header {
+            font: Roboto;
+            font-size: 12pt;
+            font-weight: thin;
+        }
+
         .header {
             font: Roboto;
             font-size: 25pt;
             font-weight: bold;
         }
+
         .price {
             text-align: center;
         }
@@ -50,7 +69,8 @@
             font-weight: bold;
             border-radius: 10px;
         }
-        div{
+
+        div {
 
         }
     </style>
@@ -60,7 +80,8 @@
 
     <div class="section light-blue accent-3">
         <div class="row container">
-            <div class="header thin col s12 m12 l12"><span class="yellow-text">Up-Brella</span> - совершенная эволюция зонта
+            <div class="header thin col s12 m12 l12"><span class="yellow-text">Up-Brella</span> - совершенная эволюция
+                зонта
             </div>
             <div class="col s12 m7 l6">
                 <img src="images/1.png">
@@ -103,9 +124,102 @@
         </div>
 
     </div>
-    <div class="parallax-container">
-        <div class="parallax"><img src="images/2.jpg"></div>
+
+    <div class="section white">
+        <div class="row container">
+            <div class="header thin col s12 m8 l8 offset-m2 offset-l2">
+                Преимущества
+                <span class="blue-text">Up-Brella</span>
+            </div>
+            <div class="col s12 m12 l12 valign-wrapper">
+                <div class="row">
+                    <div class="col s12 m6 l4">
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row">
+                                <div class="col s12 m12 l12">
+                                    <img src="images/2.jpg" alt="" class="circle responsive-img">
+                                    <!-- notice the "circle" class -->
+                                </div>
+                                <div class="col s12 m12 l12">
+                                    <h5 class="card-header blue-text">
+                                        UP-BRELLA ВСЕГДА СУХОЙ
+                                    </h5>
+                                </div>
+                                <div class="col s12 m12 l12">
+                                    Зонт складывается мокрой стороной внутрь, поэтому с внешней стороны он всегда сухой
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row">
+                                <div class="col s12 m12 l12">
+                                    <img src="images/3.jpg" alt="" class="circle responsive-img">
+                                    <!-- notice the "circle" class -->
+                                </div>
+                                <div class="col s12 m12 l12">
+                                    <h5 class="card-header blue-text">
+                                        ОСНАЩЁН УДОБНОЙ РУЧКОЙ
+                                    </h5>
+                                </div>
+                                <div class="col s12 m12 l12">
+                                    Специально сконструированная С-образная ручка освобождает ваши руки для более важных
+                                    дел
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row">
+                                <div class="col s12 m12 l12">
+                                    <img src="images/4.jpg" alt="" class="circle responsive-img">
+                                    <!-- notice the "circle" class -->
+                                </div>
+                                <div class="col s12 m12 l12">
+                                    <h5 class="card-header blue-text">
+                                        ШИРОКИЙ ВЫБОР ЦВЕТОВ
+                                    </h5>
+                                </div>
+                                <div class="col s12 m12 l12">
+                                    На нашем сайте вы сможете заказать любую расцветку, которая подчеркнет ваш стиль
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="section light-blue accent-3">
+            <div class="row container">
+                <div class="header thin col s12 m8 l8 offset-m2 offset-l2 white-text">
+                    ВИДЕО ОБЗОР
+                    <span class="yellow-text">UP-BRELLA</span>
+                </div>
+                <div class="col s12 m12 l12 centered-text text12 white-text">
+                    <p>
+                        Познакомьтесь с Up-Brella. Его главная фишка - особый механизм,
+                        делающий раскрытие зонта максимально удобным. Благодаря особой конструкции,
+                        зонт раскрывается в обратную сторону и не задевает окружающее пространство.
+                        Но лучше один раз увидеть. Убедитесь в этом сами!
+                    </p>
+
+                </div>
+                <div class="col s12 m12 l12">
+                    <div class="video-container">
+                        <iframe width="853" height="480" src="http://www.youtube.com/embed/udH_nBCrY7Y" frameborder="0"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
     </div>
+
     <!--
     <form method="POST" action="{{action('UmbrelloController@store')}}" enctype="multipart/form-data">
         <div class="row">
