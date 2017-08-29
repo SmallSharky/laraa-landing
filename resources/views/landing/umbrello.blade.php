@@ -120,7 +120,7 @@
                     <div class="col m6 s6 l6 new">
                         Новая цена
                         <div class="value">
-                            1500 р.
+                            5000 р.
                         </div>
                     </div>
                 </div>
