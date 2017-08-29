@@ -114,13 +114,13 @@
                     <div class="col m6 s6 old">
                         Старая цена
                         <div class="value">
-                            1500 р.
+                            {{round(($globals['price']*100)/60)}} р.
                         </div>
                     </div>
                     <div class="col m6 s6 l6 new">
                         Новая цена
                         <div class="value">
-                            5000 р.
+                            {{$globals['price']}} р.
                         </div>
                     </div>
                 </div>

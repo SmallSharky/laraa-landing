@@ -7,18 +7,28 @@ use Illuminate\Support\Facades\Mail;
 
 class UmbrelloController extends Controller
 {
+    private $globals;
+
     //
-    public function index(){
-        return view('landing.umbrello');
+    public function __construct()
+    {
+        $this->globals['price'] = 1990;
     }
-    public function store(Request $r){
+
+    public function index()
+    {
+        return view('landing.umbrello', ['globals' => $this->globals]);
+    }
+
+    public function store(Request $r)
+    {
         $mailText = "Создан заказ!\n";
-        $fio = ($r->has('fio'))?($r->fio):('не указано');
-        $mailText .= "Имя заказчика: ". $fio ."\n";
-        $phone = ($r->has('phone'))?($r->phone):('не указан');
-        $mailText .= "Телефон заказчика: ". $phone ."\n";
-        $email = ($r->has('email'))?($r->email):('не указан');
-        $mailText .= "Email заказчика: ". $email ."\n";
+        $fio = ($r->has('fio')) ? ($r->fio) : ('не указано');
+        $mailText .= "Имя заказчика: " . $fio . "\n";
+        $phone = ($r->has('phone')) ? ($r->phone) : ('не указан');
+        $mailText .= "Телефон заказчика: " . $phone . "\n";
+        $email = ($r->has('email')) ? ($r->email) : ('не указан');
+        $mailText .= "Email заказчика: " . $email . "\n";
 
 
         Mail::raw($mailText, function ($message) {
@@ -29,7 +39,7 @@ class UmbrelloController extends Controller
             //$message->
             $message->to("kizzyol76@gmail.com")->subject("Новый заказ");
         });
-        return redirect('/');
-        
+        return back();
+
     }
 }
