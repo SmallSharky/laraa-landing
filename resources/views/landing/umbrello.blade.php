@@ -501,6 +501,12 @@
 
         </form>
     </div>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large orange waves-effect waves-light modal-trigger pulse"
+           href="#OrderModal" >
+            <i class="large material-icons">local_grocery_store</i>
+        </a>
+    </div>
 
 
 @endsection
