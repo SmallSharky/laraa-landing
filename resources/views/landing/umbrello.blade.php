@@ -5,11 +5,18 @@
         $(document).ready(function () {
             $('.parallax').parallax();
         });
+        $(document).ready(function () {
+            // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+            $('.modal').modal();
+        });
     </script>
 @endsection
 
 @section('styles')
     <style>
+        form{
+            padding: 20px;
+        }
         .text15 {
             font-size: 15pt;
         }
@@ -118,7 +125,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="btn orange col m12 l12 s12 waves-effect waves-light btn-buy">ЗАКАЗАТЬ</div>
+                    <a class="btn orange col m12 l12 s12 waves-effect waves-light btn-buy white-text modal-trigger"
+                       href="#OrderModal">
+                        ЗАКАЗАТЬ
+                    </a>
                 </div>
 
             </div>
@@ -391,9 +401,11 @@
 
 
             </div>
-            <div class="btn orange col m6 l6 s12 waves-effect waves-light btn-buy">
+            <a class="btn orange col m6 l6 s12 waves-effect waves-light btn-buy white-text modal-trigger"
+                 href="#OrderModal">
                 ЗАКАЗАТЬ СО СКИДКОЙ
-            </div>
+            </a>
+
 
         </div>
 
@@ -463,33 +475,32 @@
         </div>
     </div>
 
+    <div id="OrderModal" class="modal">
+        <form method="POST" action="{{action('UmbrelloController@store')}}" enctype="multipart/form-data">
 
-    <form method="POST" action="{{action('UmbrelloController@store')}}" enctype="multipart/form-data">
-        <div class="row">
-            <div class="col l6 m6 s12">
-                <div class="row">
-                    <div class="input-field col l12 m12 s12">
-                        <input id="fio" type="text" class="validate" name="fio" required>
-                        <label for="fio">Ваше имя (обязательно)</label>
-                    </div>
-                    <div class="input-field col l12 m12 s12">
-                        <input id="phone" type="tel" class="validate" name="phone" required>
-                        <label for="phone">Телефон (обязательно)</label>
-                    </div>
-                    <div class="input-field col l12 m12 s12">
-                        <input id="email" type="email" class="validate" name="email">
-                        <label for="email">Электронная почта</label>
-                    </div>
-                    <button class="btn waves-effect waves-light blue" type="submit">
-                        <i class="material-icons right">send</i>
-                        Отправить
-                    </button>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+            <div class="row">
+                <div class="input-field col l12 m12 s12">
+                    <input id="fio" type="text" class="validate" name="fio" required>
+                    <label for="fio">Ваше имя (обязательно)</label>
                 </div>
+                <div class="input-field col l12 m12 s12">
+                    <input id="phone" type="tel" class="validate" name="phone" required>
+                    <label for="phone">Телефон (обязательно)</label>
+                </div>
+                <div class="input-field col l12 m12 s12">
+                    <input id="email" type="email" class="validate" name="email">
+                    <label for="email">Электронная почта</label>
+                </div>
+                <button class="btn waves-effect waves-light orange" type="submit">
+                    <i class="material-icons right">send</i>
+                    Отправить
+                </button>
+                <input type="hidden" name="_token" value="{{csrf_token()}}">
             </div>
-        </div>
 
-    </form>
+
+        </form>
+    </div>
 
 
 @endsection
