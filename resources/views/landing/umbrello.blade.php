@@ -136,7 +136,7 @@
                 <div class="row">
                     <div class="col s12 m6 l4">
                         <div class="card-panel grey lighten-5 z-depth-1">
-                            <div class="row">
+                            <div class="row centered-text">
                                 <div class="col s12 m12 l12">
                                     <img src="images/2.jpg" alt="" class="circle responsive-img">
                                     <!-- notice the "circle" class -->
@@ -154,7 +154,7 @@
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card-panel grey lighten-5 z-depth-1">
-                            <div class="row">
+                            <div class="row centered-text">
                                 <div class="col s12 m12 l12">
                                     <img src="images/3.jpg" alt="" class="circle responsive-img">
                                     <!-- notice the "circle" class -->
@@ -173,7 +173,7 @@
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card-panel grey lighten-5 z-depth-1">
-                            <div class="row">
+                            <div class="row centered-text">
                                 <div class="col s12 m12 l12">
                                     <img src="images/4.jpg" alt="" class="circle responsive-img">
                                     <!-- notice the "circle" class -->
@@ -220,6 +220,133 @@
 
         </div>
     </div>
+    <div class="section white">
+        <div class="row container">
+            <div class="header thin col s12 m12 l12 centered-text black-text">
+                ХАРАКТЕРИСТИКИ ЗОНТА
+                <span class="blue-text">UP-BRELLA</span>
+            </div>
+
+            <div class="col s12 m12 l7 ">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+
+                        <div class="row centered-text">
+                            <div class="col s12 m12 l12">
+                                <img src="images/5.jpg" alt="" class="responsive-img">
+                                <!-- notice the "circle" class -->
+                            </div>
+                            <div class="col s12 m12 l12">
+                                <div class="row valign-wrapper text15">
+                                    <i class="material-icons blue-text tiny">fiber_manual_record</i>
+                                    <span class="blue-text" style="padding-right: 10px;">
+                                        Тип механизма:
+                                        </span>
+                                    полуавтомат (автооткрытие)
+                                </div>
+                                <div class="row valign-wrapper text15">
+                                    <i class="material-icons blue-text tiny">fiber_manual_record</i>
+                                    <span class="blue-text" style="padding-right: 10px;">
+                                        Материал:
+                                        </span>
+                                    эпонж, стекловолокно, пластик
+                                </div>
+                                <div class="row valign-wrapper text15">
+                                    <i class="material-icons blue-text tiny">fiber_manual_record</i>
+                                    <span class="blue-text" style="padding-right: 10px;">
+                                        Диаметр купола:
+                                        </span>
+                                    106 см
+                                </div>
+                                <div class="row valign-wrapper text15">
+                                    <i class="material-icons blue-text tiny">fiber_manual_record</i>
+                                    <span class="blue-text" style="padding-right: 10px;">
+                                        Длина в сложеном виде:
+                                        </span>
+                                    81 см
+                                </div>
+                                <div class="row valign-wrapper text15">
+                                    <i class="material-icons blue-text tiny">fiber_manual_record</i>
+                                    <span class="blue-text" style="padding-right: 10px;">
+                                        Вес зонта:
+                                        </span>
+                                    520г
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l5">
+                <div class="row ">
+                    <div class="col s12 m12 l12 valign-wrapper">
+                        <div class="row">
+                            <div class="col s4 m4 l4">
+                                <img src="images/6.jpg" alt="" class="circle responsive-img">
+                                <!-- notice the "circle" class -->
+                            </div>
+                            <div class="col s8 m8 l8">
+                                <h5 class="card-header blue-text">
+                                    ДВОЙНОЙ КУПОЛ
+                                </h5>
+                                Повышает надежность зонта и не позволяет ему закрываться при резких порывах ветра
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l12 valign-wrapper">
+                        <div class="row">
+                            <div class="col s4 m4 l4">
+                                <img src="images/7.jpg" alt="" class="circle responsive-img">
+                                <!-- notice the "circle" class -->
+                            </div>
+                            <div class="col s8 m8 l8">
+                                <h5 class="card-header blue-text">
+                                    ВОДООТТАЛКИВАЮЩИЙ ЭПОНЖ
+                                </h5>
+                                Дождевые капли скатываются с купола зонта, оставляя его практически сухим
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l12 valign-wrapper">
+                        <div class="row">
+                            <div class="col s4 m4 l4">
+                                <img src="images/8.jpg" alt="" class="circle responsive-img">
+                                <!-- notice the "circle" class -->
+                            </div>
+                            <div class="col s8 m8 l8">
+                                <h5 class="card-header blue-text">
+                                    СПИЦЫ ИЗ СТЕКЛОВОЛОКНА
+                                </h5>
+                                Этот материал отличается высокой прочностью и вместе с тем большой долговечностью и
+                                упругостью
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l12 valign-wrapper">
+                        <div class="row">
+                            <div class="col s4 m4 l4">
+                                <img src="images/9.jpg" alt="" class="circle responsive-img">
+                                <!-- notice the "circle" class -->
+                            </div>
+                            <div class="col s8 m8 l8">
+                                <h5 class="card-header blue-text">
+                                    HANDS-FREE РУКОЯТЬ
+                                </h5>
+                                Особая форма рукояти позволит вам освободить руки для телефона, кофе или просто удобно удерживать зонт на предплечие
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     <!--
     <form method="POST" action="{{action('UmbrelloController@store')}}" enctype="multipart/form-data">
