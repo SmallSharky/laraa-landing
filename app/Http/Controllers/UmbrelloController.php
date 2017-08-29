@@ -13,8 +13,13 @@ class UmbrelloController extends Controller
     }
     public function store(Request $r){
         $mailText = "Создан заказ!\n";
-        $mailText .= "Email заказчика: ". $r->email ."\n";
-        $mailText .= "ФИО заказчика: ". $r->fio ."\n";
+        $fio = ($r->has('fio'))?($r->fio):('не указано');
+        $mailText .= "Имя заказчика: ". $fio ."\n";
+        $phone = ($r->has('phone'))?($r->phone):('не указан');
+        $mailText .= "Телефон заказчика: ". $phone ."\n";
+        $email = ($r->has('email'))?($r->email):('не указан');
+        $mailText .= "Email заказчика: ". $email ."\n";
+
 
         Mail::raw($mailText, function ($message) {
             //$message->
@@ -24,6 +29,7 @@ class UmbrelloController extends Controller
             //$message->
             $message->to("kizzyol76@gmail.com")->subject("Новый заказ");
         });
+        return redirect('/');
         
     }
 }

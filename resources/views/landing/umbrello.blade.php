@@ -65,7 +65,7 @@
 
         .btn-buy {
             font: Roboto;
-            font-size: 20pt;
+            font-size: 15pt;
             font-weight: bold;
             border-radius: 10px;
         }
@@ -87,20 +87,20 @@
             <div class="col s12 m7 l6">
                 <img src="images/1.png">
             </div>
-            <div class="col s12 m5 l6 bold">
-                <div class="row valign-wrapper">
+            <div class="col s12 m5 l6">
+                <div class="row valign-wrapper white-text" style="font-weight: bold;">
                     <i class="material-icons yellow-text">check</i>УДОБНАЯ РУКОЯТЬ С-ФОРМЫ
                 </div>
-                <div class="row valign-wrapper">
+                <div class="row valign-wrapper white-text" style="font-weight: bold;">
                     <i class="material-icons yellow-text">check</i>ДВОЙНОЙ КУПОЛ
                 </div>
-                <div class="row valign-wrapper">
+                <div class="row valign-wrapper white-text" style="font-weight: bold;">
                     <i class="material-icons yellow-text">check</i>НАДЕЖНЫЙ МЕХАНИЗМ
                 </div>
-                <div class="row valign-wrapper">
+                <div class="row valign-wrapper white-text" style="font-weight: bold;">
                     <i class="material-icons yellow-text">check</i>КАЧЕСТВЕННЫЕ МАТЕРИАЛЫ
                 </div>
-                <div class="row valign-wrapper">
+                <div class="row valign-wrapper white-text" style="font-weight: bold;">
                     <i class="material-icons yellow-text">check</i>ШИРОКИЙ ВЫБОР ЦВЕТОВ
                 </div>
                 <div class="row price valign-wrapper">
@@ -194,32 +194,33 @@
             </div>
 
         </div>
-        <div class="section light-blue accent-3">
-            <div class="row container">
-                <div class="header thin col s12 m12 l12 centered-text white-text">
-                    ВИДЕО ОБЗОР
-                    <span class="yellow-text">UP-BRELLA</span>
-                </div>
-                <div class="col s12 m12 l12 centered-text text12 white-text">
-                    <p>
-                        Познакомьтесь с Up-Brella. Его главная фишка - особый механизм,
-                        делающий раскрытие зонта максимально удобным. Благодаря особой конструкции,
-                        зонт раскрывается в обратную сторону и не задевает окружающее пространство.
-                        Но лучше один раз увидеть. Убедитесь в этом сами!
-                    </p>
+    </div>
+    <div class="section light-blue accent-3">
+        <div class="row container">
+            <div class="header thin col s12 m12 l12 centered-text white-text">
+                ВИДЕО ОБЗОР
+                <span class="yellow-text">UP-BRELLA</span>
+            </div>
+            <div class="col s12 m12 l12 centered-text text12 white-text">
+                <p>
+                    Познакомьтесь с Up-Brella. Его главная фишка - особый механизм,
+                    делающий раскрытие зонта максимально удобным. Благодаря особой конструкции,
+                    зонт раскрывается в обратную сторону и не задевает окружающее пространство.
+                    Но лучше один раз увидеть. Убедитесь в этом сами!
+                </p>
 
+            </div>
+            <div class="col s12 m12 l12">
+                <div class="video-container">
+                    <iframe width="853" height="480" src="http://www.youtube.com/embed/udH_nBCrY7Y" frameborder="0"
+                            allowfullscreen></iframe>
                 </div>
-                <div class="col s12 m12 l12">
-                    <div class="video-container">
-                        <iframe width="853" height="480" src="http://www.youtube.com/embed/udH_nBCrY7Y" frameborder="0"
-                                allowfullscreen></iframe>
-                    </div>
-                </div>
-
             </div>
 
         </div>
+
     </div>
+
     <div class="section white">
         <div class="row container">
             <div class="header thin col s12 m12 l12 centered-text black-text">
@@ -338,7 +339,8 @@
                                 <h5 class="card-header blue-text">
                                     HANDS-FREE РУКОЯТЬ
                                 </h5>
-                                Особая форма рукояти позволит вам освободить руки для телефона, кофе или просто удобно удерживать зонт на предплечие
+                                Особая форма рукояти позволит вам освободить руки для телефона, кофе или просто удобно
+                                удерживать зонт на предплечие
                             </div>
 
                         </div>
@@ -347,26 +349,147 @@
             </div>
 
         </div>
+    </div>
 
-    <!--
+    <div class="section light-blue accent-3" style="background-image: url(/images/bg_gift.jpg);">
+        <div class="row container">
+            <div class="header thin col s12 m12 l12 centered-text white-text">
+                <span class="yellow-text">UP-BRELLA</span>
+                - ОТЛИЧНЫЙ ПОДАРОК!
+            </div>
+            <div class="col s12 m12 l8 text12 white-text valign-wrapper">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <h5 class="card-header yellow-text">
+                            ЛЮБИТЕЛЯМ КОФЕ
+                        </h5>
+                        С Up-Brella вы сможете спешить по делам
+                        и пить кофе на бегу, несмотря на дождь.
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <h5 class="card-header yellow-text">
+                            БЛОГЕРАМ
+                        </h5>
+                        С зонтом Up-Brella ваши руки свободны и
+                        ничто не помешает вам делать фото в любую погоду!
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <h5 class="card-header yellow-text">
+                            МОЛОДЫМ МАМАМ
+                        </h5>
+                        С Up-Brella очень приятно гулять с коляской,
+                        ведь вторая рука свободна для других дел.
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <h5 class="card-header yellow-text">
+                            ДЕЛОВЫМ МУЖЧИНАМ
+                        </h5>
+                        Up-Brella - стильный аксессуар, который впишется в любой дресскод!
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="btn orange col m6 l6 s12 waves-effect waves-light btn-buy">
+                ЗАКАЗАТЬ СО СКИДКОЙ
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section white">
+        <div class="row container">
+            <div class="header thin col s12 m12 l12 centered-text black-text">
+                ОТЗЫВЫ НАШИХ КЛИЕНТОВ
+            </div>
+
+            <div class="row card-panel grey lighten-5 z-depth-1">
+                <div class="col s12 m5 l5 centered-text">
+                    <img src="/images/10.jpg">
+                </div>
+                <div class="col s12 m7 l7">
+
+                    <div class="chip">
+                        <img src="images/11.jpg" alt="Contact Person">
+                        Алексей Мартынов
+                    </div>
+                    <p>
+                        Прекрасный зонт, полностью соответствует заявленным требованиям.
+                        Очень приятные ощущения, когда садишься в машину в дождливую погоду.
+                        Салон остаётся сухим. Порадовала ручка,­ теперь смело пользуюсь смартфоном,
+                        пока стою под зонтом. Очень удобно, спасибо зонту Up-Brella!
+                    </p>
+                </div>
+            </div>
+            <div class="row card-panel grey lighten-5 z-depth-1">
+                <div class="col s12 m5 l5 centered-text">
+                    <img src="/images/12.jpg">
+                </div>
+                <div class="col s12 m7 l7">
+
+                    <div class="chip">
+                        <img src="images/13.jpg" alt="Contact Person">
+                        Ирина Кузнецова
+                    </div>
+                    <p>
+                        Зонт просто супер! Несмотря на свои крупные размеры он очень легкий и удобный.
+                        Стоя даже под сильным ветром я не переживала что он сломается или улетит из рук.
+                        Механизм полуавтомат, а его простота конструкции и качественные материалы делают
+                        этот зонт просто вечным. Очень рада такому приобретению!
+                    </p>
+                </div>
+            </div>
+            <div class="row card-panel grey lighten-5 z-depth-1">
+                <div class="col s12 m5 l5 centered-text">
+                    <img src="/images/14.jpg">
+                </div>
+                <div class="col s12 m7 l7">
+
+                    <div class="chip">
+                        <img src="images/15.jpg" alt="Contact Person">
+                        Игорь Перекопский
+                    </div>
+                    <p>
+                        Всем рекомендую этот зонт! Купил себе в машину, чтобы домашние зонты не катать.
+                        Он оказался очень необычный, продуманный и функциональный. Буду заказывать еще
+                        для своей семьи так как вещь однозначно стоящая и практичная. Выполнен качественно,
+                        и прослужит долго. Если кто ищет себе хороший зонт, советую обратить внимание
+                        именно на эту модель!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <form method="POST" action="{{action('UmbrelloController@store')}}" enctype="multipart/form-data">
         <div class="row">
-            <div class="input-field col l6 m6 s12">
-                <input id="fio" type="text" class="validate" name="fio">
-                <label for="fio">Фамилия, имя</label>
+            <div class="col l6 m6 s12">
+                <div class="row">
+                    <div class="input-field col l12 m12 s12">
+                        <input id="fio" type="text" class="validate" name="fio" required>
+                        <label for="fio">Ваше имя (обязательно)</label>
+                    </div>
+                    <div class="input-field col l12 m12 s12">
+                        <input id="phone" type="tel" class="validate" name="phone" required>
+                        <label for="phone">Телефон (обязательно)</label>
+                    </div>
+                    <div class="input-field col l12 m12 s12">
+                        <input id="email" type="email" class="validate" name="email">
+                        <label for="email">Электронная почта</label>
+                    </div>
+                    <button class="btn waves-effect waves-light blue" type="submit">
+                        <i class="material-icons right">send</i>
+                        Отправить
+                    </button>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                </div>
             </div>
-            <div class="input-field col l6 m6 s12">
-                <input id="email" type="email" class="validate" name="email">
-                <label for="email">Электронная почта</label>
-            </div>
-            <button class="btn waves-effect waves-light blue" type="submit">
-                <i class="material-icons right">send</i>
-                Отправить
-            </button>
-            <input type="hidden" name="_token" value="{{csrf_token()}}">
         </div>
 
     </form>
-    -->
+
 
 @endsection
