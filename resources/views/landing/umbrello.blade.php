@@ -80,29 +80,30 @@
 
     <div class="section light-blue accent-3">
         <div class="row container">
-            <div class="header thin col s12 m12 l12"><span class="yellow-text">Up-Brella</span> - совершенная эволюция
-                зонта
+            <div class="header thin col s12 m12 l12 centered-text white-text">
+                <span class="yellow-text">Up-Brella</span>
+                - совершенная эволюция зонта
             </div>
             <div class="col s12 m7 l6">
                 <img src="images/1.png">
             </div>
             <div class="col s12 m5 l6 bold">
-                <div class="row">
+                <div class="row valign-wrapper">
                     <i class="material-icons yellow-text">check</i>УДОБНАЯ РУКОЯТЬ С-ФОРМЫ
                 </div>
-                <div class="row">
+                <div class="row valign-wrapper">
                     <i class="material-icons yellow-text">check</i>ДВОЙНОЙ КУПОЛ
                 </div>
-                <div class="row">
+                <div class="row valign-wrapper">
                     <i class="material-icons yellow-text">check</i>НАДЕЖНЫЙ МЕХАНИЗМ
                 </div>
-                <div class="row">
+                <div class="row valign-wrapper">
                     <i class="material-icons yellow-text">check</i>КАЧЕСТВЕННЫЕ МАТЕРИАЛЫ
                 </div>
-                <div class="row">
+                <div class="row valign-wrapper">
                     <i class="material-icons yellow-text">check</i>ШИРОКИЙ ВЫБОР ЦВЕТОВ
                 </div>
-                <div class="row price">
+                <div class="row price valign-wrapper">
                     <div class="col m6 s6 old">
                         Старая цена
                         <div class="value">
@@ -127,7 +128,7 @@
 
     <div class="section white">
         <div class="row container">
-            <div class="header thin col s12 m8 l8 offset-m2 offset-l2">
+            <div class="header thin col s12 m12 l12 centered-text black-text">
                 Преимущества
                 <span class="blue-text">Up-Brella</span>
             </div>
@@ -195,7 +196,7 @@
         </div>
         <div class="section light-blue accent-3">
             <div class="row container">
-                <div class="header thin col s12 m8 l8 offset-m2 offset-l2 white-text">
+                <div class="header thin col s12 m12 l12 centered-text white-text">
                     ВИДЕО ОБЗОР
                     <span class="yellow-text">UP-BRELLA</span>
                 </div>
