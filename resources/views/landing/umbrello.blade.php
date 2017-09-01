@@ -8,15 +8,19 @@
         $(document).ready(function () {
             // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
             $('.modal').modal();
+            $('#clock').
         });
+
+
     </script>
 @endsection
 
 @section('styles')
     <style>
-        form{
+        form {
             padding: 20px;
         }
+
         .text15 {
             font-size: 15pt;
         }
@@ -402,7 +406,7 @@
 
             </div>
             <a class="btn orange col m6 l6 s12 waves-effect waves-light btn-buy white-text modal-trigger"
-                 href="#OrderModal">
+               href="#OrderModal">
                 ЗАКАЗАТЬ СО СКИДКОЙ
             </a>
 
@@ -416,62 +420,184 @@
             <div class="header thin col s12 m12 l12 centered-text black-text">
                 ОТЗЫВЫ НАШИХ КЛИЕНТОВ
             </div>
-
-            <div class="row card-panel grey lighten-5 z-depth-1">
-                <div class="col s12 m5 l5 centered-text">
-                    <img src="/images/10.jpg">
-                </div>
-                <div class="col s12 m7 l7">
-
-                    <div class="chip">
-                        <img src="images/11.jpg" alt="Contact Person">
-                        Алексей Мартынов
+            <div class="col s12 m12 l12">
+                <div class="row card-panel grey lighten-5 z-depth-1">
+                    <div class="col s12 m5 l5 centered-text">
+                        <img src="/images/10.jpg">
                     </div>
-                    <p>
-                        Прекрасный зонт, полностью соответствует заявленным требованиям.
-                        Очень приятные ощущения, когда садишься в машину в дождливую погоду.
-                        Салон остаётся сухим. Порадовала ручка,­ теперь смело пользуюсь смартфоном,
-                        пока стою под зонтом. Очень удобно, спасибо зонту Up-Brella!
-                    </p>
+                    <div class="col s12 m7 l7">
+
+                        <div class="chip">
+                            <img src="images/11.jpg" alt="Contact Person">
+                            Алексей Мартынов
+                        </div>
+                        <p>
+                            Прекрасный зонт, полностью соответствует заявленным требованиям.
+                            Очень приятные ощущения, когда садишься в машину в дождливую погоду.
+                            Салон остаётся сухим. Порадовала ручка,­ теперь смело пользуюсь смартфоном,
+                            пока стою под зонтом. Очень удобно, спасибо зонту Up-Brella!
+                        </p>
+                    </div>
+                </div>
+                <div class="row card-panel grey lighten-5 z-depth-1">
+                    <div class="col s12 m5 l5 centered-text">
+                        <img src="/images/12.jpg">
+                    </div>
+                    <div class="col s12 m7 l7">
+
+                        <div class="chip">
+                            <img src="images/13.jpg" alt="Contact Person">
+                            Ирина Кузнецова
+                        </div>
+                        <p>
+                            Зонт просто супер! Несмотря на свои крупные размеры он очень легкий и удобный.
+                            Стоя даже под сильным ветром я не переживала что он сломается или улетит из рук.
+                            Механизм полуавтомат, а его простота конструкции и качественные материалы делают
+                            этот зонт просто вечным. Очень рада такому приобретению!
+                        </p>
+                    </div>
+                </div>
+                <div class="row card-panel grey lighten-5 z-depth-1">
+                    <div class="col s12 m5 l5 centered-text">
+                        <img src="/images/14.jpg">
+                    </div>
+                    <div class="col s12 m7 l7">
+
+                        <div class="chip">
+                            <img src="images/15.jpg" alt="Contact Person">
+                            Игорь Перекопский
+                        </div>
+                        <p>
+                            Всем рекомендую этот зонт! Купил себе в машину, чтобы домашние зонты не катать.
+                            Он оказался очень необычный, продуманный и функциональный. Буду заказывать еще
+                            для своей семьи так как вещь однозначно стоящая и практичная. Выполнен качественно,
+                            и прослужит долго. Если кто ищет себе хороший зонт, советую обратить внимание
+                            именно на эту модель!
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row card-panel grey lighten-5 z-depth-1">
-                <div class="col s12 m5 l5 centered-text">
-                    <img src="/images/12.jpg">
-                </div>
-                <div class="col s12 m7 l7">
+        </div>
+    </div>
 
-                    <div class="chip">
-                        <img src="images/13.jpg" alt="Contact Person">
-                        Ирина Кузнецова
+    <div class="section light-blue accent-3" style="background-image: url(/images/order_steps.jpg);">
+        <div class="row container">
+            <div class="header thin col s12 m12 l12 centered-text white-text">
+                ДОСТАВКА И ОПЛАТА
+            </div>
+            <div class="col s12 m12 l12 text12 white-text valign-wrapper">
+                <div class="row centered-text text15" style="font-weight: bold;">
+                    <div class="col s12 m6 l3">
+                        <i class="large material-icons yellow-text">chat</i><br>
+                        1.Вы оставляете заявку через форму заказа на сайте
                     </div>
-                    <p>
-                        Зонт просто супер! Несмотря на свои крупные размеры он очень легкий и удобный.
-                        Стоя даже под сильным ветром я не переживала что он сломается или улетит из рук.
-                        Механизм полуавтомат, а его простота конструкции и качественные материалы делают
-                        этот зонт просто вечным. Очень рада такому приобретению!
-                    </p>
+                    <div class="col s12 m6 l3">
+                        <i class="large material-icons yellow-text">phone</i><br>
+                        2.Мы перезваниваем вам для уточнения деталей заказа
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <i class="large material-icons yellow-text">flight</i><br>
+                        3.Мы доставим ваш заказ в течение 1-10 дней
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <i class="large material-icons yellow-text">payment</i><br>
+                        4.Вы проверяете и оплачиваете заказ при получении
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section white">
+        <div class="row container">
+            <div class="header thin col s12 m12 l12 centered-text red-text">
+                ВЫБЕРИТЕ СВОЙ ЗОНТ СО СКИДКОЙ 40%
+            </div>
+
+            <div class="col s12 m5 l5">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <img src="/images/16.jpg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s3 m3 l3">
+                        <img class="responsive-img materialboxed" src="/images/16.jpg">
+                    </div>
+                    <div class="col s3 m3 l3">
+                        <img class="responsive-img materialboxed" src="/images/17.jpg">
+                    </div>
+                    <div class="col s3 m3 l3">
+                        <img class="responsive-img materialboxed" src="/images/18.jpg">
+                    </div>
+                    <div class="col s3 m3 l3">
+                        <img class="responsive-img materialboxed" src="/images/19.jpg">
+                    </div>
+                    <div class="col s3 m3 l3">
+                        <img class="responsive-img materialboxed" src="/images/20.jpg">
+                    </div>
+                    <div class="col s3 m3 l3">
+                        <img class="responsive-img materialboxed" src="/images/21.jpg">
+                    </div>
+                    <div class="col s3 m3 l3">
+                        <img class="responsive-img materialboxed" src="/images/22.jpg">
+                    </div>
                 </div>
             </div>
-            <div class="row card-panel grey lighten-5 z-depth-1">
-                <div class="col s12 m5 l5 centered-text">
-                    <img src="/images/14.jpg">
-                </div>
-                <div class="col s12 m7 l7">
+            <div class="card col s12 m5 l5 offset-m2 offset-l2">
 
-                    <div class="chip">
-                        <img src="images/15.jpg" alt="Contact Person">
-                        Игорь Перекопский
+                <form method="POST" action="{{action('UmbrelloController@store')}}" enctype="multipart/form-data">
+                    <div class="row centered-text">
+                        <div class="col s12 m12 l12">
+                            До конца акции осталось:
+                        </div>
+                        <div class="col s12 m12 l12 orange-text" style="font-size: 30pt;" id="clock">
+                            00 : 00 : 00
+                        </div>
+
                     </div>
-                    <p>
-                        Всем рекомендую этот зонт! Купил себе в машину, чтобы домашние зонты не катать.
-                        Он оказался очень необычный, продуманный и функциональный. Буду заказывать еще
-                        для своей семьи так как вещь однозначно стоящая и практичная. Выполнен качественно,
-                        и прослужит долго. Если кто ищет себе хороший зонт, советую обратить внимание
-                        именно на эту модель!
-                    </p>
-                </div>
+
+                    <div class="row valign-wrapper">
+                        <div class="col m6 s6" style=" color: rgba(33,58,72,0.69)">
+                            Старая цена
+                            <div style="text-decoration: line-through; font-size: 20pt; font-variant: thin;">
+                                {{round(($globals['price']*100)/60)}}р.
+                            </div>
+                        </div>
+                        <div class="col m6 s6 l6">
+                            Новая цена
+                            <div style="font-size: 20pt; font-weight: bold;">
+                                {{$globals['price']}}р.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col l12 m12 s12">
+                            <input id="fio" type="text" class="validate" name="fio" required>
+                            <label for="fio">Ваше имя (обязательно)</label>
+                        </div>
+                        <div class="input-field col l12 m12 s12">
+                            <input id="phone" type="tel" class="validate" name="phone" required>
+                            <label for="phone">Телефон (обязательно)</label>
+                        </div>
+                        <div class="input-field col l12 m12 s12">
+                            <input id="email" type="email" class="validate" name="email">
+                            <label for="email">Электронная почта</label>
+                        </div>
+                        <button class="btn waves-effect waves-light orange" type="submit">
+                            <i class="material-icons right">send</i>
+                            Отправить
+                        </button>
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    </div>
+                </form>
             </div>
+
         </div>
     </div>
 
@@ -503,7 +629,7 @@
     </div>
     <div class="fixed-action-btn">
         <a class="btn-floating btn-large orange waves-effect waves-light modal-trigger pulse"
-           href="#OrderModal" >
+           href="#OrderModal">
             <i class="large material-icons">local_grocery_store</i>
         </a>
     </div>
