@@ -13,6 +13,8 @@ class UmbrelloController extends Controller
     public function __construct()
     {
         $this->globals['price'] = 1490;
+        $this->globals['sale'] = 55;
+        
     }
 
     public function index()

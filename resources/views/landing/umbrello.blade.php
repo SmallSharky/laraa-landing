@@ -118,7 +118,7 @@
                     <div class="col m6 s6 old">
                         Старая цена
                         <div class="value">
-                            {{round(($globals['price']*100)/60)}} р.
+                            {{round(($globals['price']*100)/(100-$globals['sale']))}} р.
                         </div>
                     </div>
                     <div class="col m6 s6 l6 new">
@@ -516,7 +516,7 @@
     <div class="section white">
         <div class="row container">
             <div class="header thin col s12 m12 l12 centered-text red-text">
-                ВЫБЕРИТЕ СВОЙ ЗОНТ СО СКИДКОЙ 40%
+                ВЫБЕРИТЕ СВОЙ ЗОНТ СО СКИДКОЙ {{$globals['sale']}}%
             </div>
 
             <div class="col s12 m5 l5">
@@ -566,7 +566,7 @@
                         <div class="col m6 s6" style=" color: rgba(33,58,72,0.69)">
                             Старая цена
                             <div style="text-decoration: line-through; font-size: 20pt; font-variant: thin;">
-                                {{round(($globals['price']*100)/60)}}р.
+                                {{round(($globals['price']*100)/(100-$globals['sale']))}}р.
                             </div>
                         </div>
                         <div class="col m6 s6 l6">
